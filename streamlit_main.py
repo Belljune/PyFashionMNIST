@@ -116,3 +116,6 @@ transform = transforms.Compose([
     transforms.Normalize(mean=transform_config["mean"], std=transform_config["std"])
 ])
 
+st.title("FashionMNIST")
+
+st.file_uploader("이미지를 업로드 하세요", type=['png', 'jpg', 'jpeg'])
